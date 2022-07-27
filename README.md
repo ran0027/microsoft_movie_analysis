@@ -6,15 +6,19 @@ Author: Rebecca Neel
 
 ## Overview
 
-This project looks for film characteristics which are correlated to higher revenues. By examining the worldwide gross of films of various genres, released at various times of year and produced by groups of production companies, it becomes clear that certain types of films have earned higher revenues historically than others. Additionally, certain production companies already dominate the film industry. Since partnering with one ore more production companies is already an accepted practice in the film industry, we have analyzed the most successful production companies to determine possible suitable partners for Microsoft in a joint venture. Microsoft can use this information to specify the genre and release time of their first film and to determine an appropriate production company with which to partner, if a joint venture is desired, to maximize revenue and the reach of their film.
+This project looks for film characteristics which are correlated to higher revenues. Grouping film data by genre, release time and production companies reveals that certain choices of these characteristics are more prevalent or higher grossing, or both. Microsoft can use this information to determine what type of film to produce to maximize revenue.
 
 ## Business Problem
 
-Microsoft may be able to maximize revenue earned on films produced by choosing a genre of film that has proven popular and timing their releases to correspond to peaks in movie-going, to generate buzz around the film and garner the highest revenue possible in ticket sales. Additionally, having knowledge of established production companies which have been successful gives Microsoft the opportunity to look for a partner or partners who can lend their expertise to the film-making process, and, in some cases, the distribution process as well, to increase the likelihood of making a film which is a popular success.
+Microsoft may be able to maximize revenue earned on films produced by choosing a genre of film that has proven popular and timing their releases to correspond to peaks in movie-going, to generate buzz around the film and garner the highest revenue possible in ticket sales.
+
+Additionally, having knowledge of established production companies which have been successful gives Microsoft the opportunity to look for a partner or partners who can lend their expertise to the film-making process, and, in some cases, the distribution process as well, to increase the likelihood of making a film which is a popular success.
 
 ## Data
 
-We used data from the IMDB database, The Movie Database, The Numbers and Box Office Mojo. Data was organized by film and provided a variety of information about each film in addition to movie release date and movie title. Data was linked via the film title and release year, and ultimately included production budget, worldwide gross, genre, production companie(s) involved in the production and release date (month/day/year). Runtime and IMDB rating were also originally included, but were dropped after being shown to be un-correlated with movie gross.
+We used data from the IMDB database, The Movie Database, The Numbers and Box Office Mojo. Data was organized by film and provided a variety of information about each film in addition to movie release date and movie title.
+
+Data was linked via the film title and release year, and ultimately included production budget, worldwide gross, genre, production companie(s) involved in the production and release date (month/day/year). Runtime and IMDB rating were also originally included, but were dropped after being shown to be un-correlated with movie gross.
 
 ## Methods
 
@@ -30,7 +34,7 @@ Action/Adventure/Science-Fiction films were shown to have grossed the highest am
 
 Movies released in mid-December have grossed the highest amount of all release-times overall. Movies released in late-May have a higher average gross per film, but not as many films are released at this time of year.
 
-Only 16 of 1429 production companies in the data set have more than 1% of the market share in the film industry. Together, these 16 companies have about 35% of the market share, so there are clearly many production companies that have a relatively small share in the market. *add more here*
+Only 16 of 1429 production companies in the data set have more than 1% of the market share in the film industry. Together, these 16 companies have about 35% of the market share, so there are clearly many production companies that have a relatively small share in the market.
 
 ## Conclusions
 
@@ -43,7 +47,13 @@ This analysis leads to three recommendations for maximizing revenue on Microsoft
 ## Next Steps
 
 - Better understanding of current trends in the movie industry versus long-standing successes. Grouping data by time as well as genre, or time as well as release-date, might provide some insight into recent changes in the success of certain types of films, leading to a better sense of trends that might develop next.
-- Increasing sample size to verify results and look for more information about what makes a film successful within a genre. We only had data on 69 movies in the most successful genre, Action / Adventure / Science-Fiction movies. Overall, genre was missing for 2/3 of the films for which we had financial data. Because genre is relatively easy to find, and financial data is not, it could be worth adding the genre manually to the films in our dataset, to triple our sample size and try to identify differences in keywords between films in the bottom and top quartiles in this genre. (Though Action / Adventure / Science-Fiction films grossed the most overall, there was at least one film in this genre which earned no revenue, while others earned billions. Determining what makes a film fall flat or rise to the top in this genre would provide Microsoft with data-driven insights to guide the production of a film in this genre more closely.)
+- Increasing sample size to verify results and look for more information about what makes a film successful within a genre.
+
+We only had data on 69 movies in the most successful genre, Action / Adventure / Science-Fiction movies. An analysis of keywords for movies in the bottom and top quartiles by total gross in this genre was inconclusive due to small sample size.
+
+Overall, genre was missing for 2/3 of the films for which we had financial data. Because genre is relatively easy to find, and financial data is not, it could be worth adding the genre manually (or via web-scraping) to the films in our dataset, to triple our sample size and try to identify differences in keywords between films in the bottom and top quartiles in this genre.
+
+Ultimately, though Action / Adventure / Science-Fiction films grossed the most overall, there was at least one film in this genre which earned no revenue, while others earned billions. Determining what makes a film fall flat or rise to the top within the most popular genre(s) would provide Microsoft with data-driven insights to guide the production of a film more closely.
 
 ## For More Information
 
