@@ -1,4 +1,4 @@
-![Picture of Movie Tickets](https://github.com/ran0027/microsoft_movie_analysis/blob/Images/ticket-image.jpg?raw=true)
+![Picture of Movie Tickets](Images/ticket-image.jpg)
 
 # Microsoft Breaks Into the Film Industry
 
@@ -6,7 +6,7 @@ Author: Rebecca Neel
 
 ## Overview
 
-This project looks for film characteristics which are correlated to higher average revenue. Grouping film data by genre and release time reveals that certain choices of these characteristics are, on average, higher grossing. Microsoft can use this information to determine what type of film to produce, and when to release it, to maximize revenue.
+This project looks for film characteristics which are correlated to higher average revenue. Grouping film data by genre and release time reveals that certain choices of these characteristics correspond to higher average revenue. Microsoft can use this information to determine what type of film to produce, and when to release it, to maximize revenue.
 
 ## Business Problem
 
@@ -31,27 +31,25 @@ Genres were given as multi-genre categories: e.g. "Action Adventure Animation". 
 
 ## Results
 
-Action/Adventure/Science-Fiction films were shown to have the highest average gross of all genres for which we had a sufficient number of films in the dataset from which to draw conclusions. Roughly 96% of films in the Action/Adventure/Sci-Fi genre break even, and the average film in this genre grosses nearly $600 million. The average production buget is about $175 million. There was a weak moderate positive correlation between production budget and worldwide gross (about 50%.) We recommend spending no more than $25 million above the average production budget to ensure a reasonable return on investment.
+Action/Adventure/Science-Fiction films were shown to have the highest average gross of all genres for which we had a sufficient number of films in the dataset from which to draw conclusions.
 
-Movies released in late-May have the highest average gross, followed closely by movies released in early July and mid-December. We recommend releasing films at one of these times to maximize revenue.
+Roughly 96% of films in the Action/Adventure/Sci-Fi genre break even, and the average film in this genre grosses nearly $600 million. The average production buget is about $175 million. There was a weak moderate positive correlation between production budget and worldwide gross (about 50%.)
 
-## Conclusions
+Movies released in late-May have the highest average gross, followed closely by movies released in early July and mid-December.
+
+## Conclusion
 
 This analysis leads to three recommendations for maximizing revenue on Microsoft's first film released:
 
 - Produce an Action / Adventure / Science-Fiction film. This type of film generates the most revenue on average, which is good for the company in and of itself, and also implies a certain amount of popularity which could be leveraged to produce a franchise based on the movie and generate further revenue.
 - Spend no more than $175 to $200 million on production. The average gross on a film in this genre is about $525 million. About 50% of films make even more than this. (Side note: the mean and median worldwide gross are very similar, as you likely can infer.) While there is always a possibility of producing a film in the lower 50%, you have at least a 50% chance of making a 100% return or more.
-- Schedule the release of your film(s) for mid-December or late-May, to ensure the maximum gross for your film(s) at the box office.
+- Schedule the release of your film(s) for late-May, mid-December or early July to ensure the maximum gross for your film(s) at the box office.
 
 ## Next Steps
 
-- Better understanding of **current** trends in the movie industry versus long-standing successes. Grouping data by time as well as genre, or time as well as release-date, might provide some insight into recent changes in the success of certain types of films, leading to a better sense of trends that might develop next.
+- Better understanding of **current** trends in the movie industry versus long-standing successes. Grouping data by release year as well as genre, or release year as well as the time of year of the release, might provide some insight into recent changes in the success of certain types of films, leading to a better sense of trends that might develop next.
 
-- Increasing sample size to verify results and look for more information about what makes a film successful within a genre.
-
-We only had data on 69 movies in the most successful genre, Action / Adventure / Science-Fiction movies. An analysis of keywords for movies in the bottom and top quartiles by total gross in this genre was inconclusive due to small sample size.
-
-Overall, genre was missing for 2/3 of the films for which we had financial data. Because genre is relatively easy to find, and financial data is not, it could be worth adding the genre manually (or via web-scraping) to the films in our dataset, to triple our sample size and try to identify differences in keywords between films in the bottom and top quartiles in this genre.
+- Increasing sample size to verify results and look for more information about what makes a film successful within a genre. We only had data on 69 movies in the most successful genre. An analysis of keywords for movies in the bottom and top quartiles by total gross in this genre was inconclusive due to small sample size. We can potentially triple the size of our data set by adding genre information to films with financials which are missing genre.
 
 - Ultimately, though Action / Adventure / Science-Fiction films grossed the most overall, there was at least one film in this genre which earned no revenue, while others earned billions. Determining what makes a film fall flat or rise to the top within the most popular genre(s) would provide Microsoft with data-driven insights to guide the production of a film more closely.
 
