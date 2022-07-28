@@ -31,27 +31,25 @@ Genres were given as multi-genre categories: e.g. "Action Adventure Animation". 
 
 ## Results
 
-Action/Adventure/Science-Fiction films were shown to have the highest average gross of all genres for which we had a sufficient number of films in the dataset from which to draw conclusions.
+- GENRE: Action/Adventure/Science-Fiction films were shown to have the highest average gross of all genres for which we had a sufficient number of films in the dataset from which to draw conclusions.
 
-Roughly 96% of films in the Action/Adventure/Sci-Fi genre break even, and the average film in this genre grosses nearly $600 million. The average production buget is about $175 million. There was a weak moderate positive correlation between production budget and worldwide gross (about 50%.)
+- PRODUCTION BUDGET & WORLDWIDE GROSS: Roughly 96% of films in the Action/Adventure/Sci-Fi genre break even, and the average film in this genre grosses about $658 million. 50% of films make more than $561 million. The median is a better measure of center than the mean, in this case, because there are a couple of outliers who earned far more worldwide gross than most films in this genre. The average production buget is about $173 million. There was a weak moderate positive correlation between production budget and worldwide gross (about 50%.)
 
-Movies released in late-May have the highest average gross, followed closely by movies released in early July and mid-December.
+- RELEASE TIME: Movies released in late-May have the highest average gross, followed closely by movies released in early July and mid-December.
 
 ## Conclusion
 
 This analysis leads to three recommendations for maximizing revenue on Microsoft's first film released:
 
-- Produce an Action / Adventure / Science-Fiction film. This type of film generates the most revenue on average, which is good for the company in and of itself, and also implies a certain amount of popularity which could be leveraged to produce a franchise based on the movie and generate further revenue.
-- Spend no more than $175 to $200 million on production. The average gross on a film in this genre is about $525 million. About 50% of films make even more than this. (Side note: the mean and median worldwide gross are very similar, as you likely can infer.) While there is always a possibility of producing a film in the lower 50%, you have at least a 50% chance of making a 100% return or more.
-- Schedule the release of your film(s) for late-May, mid-December or early July to ensure the maximum gross for your film(s) at the box office.
+- GENRE: Produce an Action / Adventure / Science-Fiction film. This type of film generates the most revenue on average, which is good for the company in and of itself, and also implies a certain amount of popularity which could be leveraged to produce a franchise based on the movie and generate further revenue.
+- PRODUCTION BUDGET: Spend no more than $175 to $200 million on production. 50% of films make at least $561 million in revenue. While there is always a possibility of producing a film in the lower 50%, you have at least a 50% chance of making a 100% return or more. This type of return would give you enough cash to produce another film with a similar production budget.
+- RELEASE TIME: Schedule the release of your film(s) for late-May, early July or mid-December to ensure the maximum gross for your film(s) at the box office.
 
 ## Next Steps
 
-- Better understanding of **current** trends in the movie industry versus long-standing successes. Grouping data by release year as well as genre, or release year as well as the time of year of the release, might provide some insight into recent changes in the success of certain types of films, leading to a better sense of trends that might develop next.
+I would like to gain a better understanding of **current** trends in the movie industry versus long-standing successes. Grouping data by release year as well as genre, or release year as well as the time of year of the release, might provide some insight into recent changes in the success of certain types of films, leading to a better sense of trends that might develop next.
 
-- Increasing sample size to verify results and look for more information about what makes a film successful within a genre. We only had data on 69 movies in the most successful genre. An analysis of keywords for movies in the bottom and top quartiles by total gross in this genre was inconclusive due to small sample size. We can potentially triple the size of our data set by adding genre information to films with financials which are missing genre.
-
-- Ultimately, though Action / Adventure / Science-Fiction films grossed the most overall, there was at least one film in this genre which earned no revenue, while others earned billions. Determining what makes a film fall flat or rise to the top within the most popular genre(s) would provide Microsoft with data-driven insights to guide the production of a film more closely.
+I would also like to increase the sample size to verify my results and look for more information about what makes a film successful *within* a genre. An analysis of keywords for movies in the bottom and top quartiles by total gross in the most successful genre was inconclusive due to small sample size. I noticed that we can potentially triple the size of our data set by adding genre information to films for which we already have financials. Doing so could help us to offer insights to allow Microsoft to guide the production of a film more closely, beyond simply specifying a genre.
 
 ## For More Information
 
@@ -61,4 +59,10 @@ For additional information, contact Rebecca Neel at rebecc.clark@gmail.com.
 
 ## Repository Structure
 
-Picture
+Repository
+|_ Images
+|_ rawData
+|_ zippedData
+|_ EDA.ipynb
+|_ Presentation.ipynb *This is the notebook with my final analysis.*
+|_ README.md
