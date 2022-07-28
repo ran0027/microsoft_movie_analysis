@@ -59,10 +59,12 @@ For additional information, contact Rebecca Neel at rebecc.clark@gmail.com.
 
 ## Repository Structure
 
-Repository
-|_ Images
-|_ rawData
-|_ zippedData
-|_ EDA.ipynb
-|_ Presentation.ipynb *This is the notebook with my final analysis.*
-|_ README.md
+```
+├── Images
+├── rawData
+├── zippedData
+├── EDA.ipynb
+├── Presentation.ipynb
+└── README.md
+├── Presentation.pdf
+```
