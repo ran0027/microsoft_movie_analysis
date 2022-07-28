@@ -65,6 +65,6 @@ For additional information, contact Rebecca Neel at rebecc.clark@gmail.com.
 ├── zippedData
 ├── EDA.ipynb
 ├── Presentation.ipynb
-└── README.md
-├── Presentation.pdf
+├── README.md
+└── Presentation.pdf
 ```
