@@ -53,7 +53,7 @@ I would also like to increase the sample size to verify my results and look for 
 
 ## For More Information
 
-See the full analysis in this [Jupyter Notebook](./Presentation.ipynb) or review the [Google Slides presentation](./presentation.ppt).
+See the full analysis in this [Jupyter Notebook](./Presentation.ipynb) or review the [Google Slides presentation](./Presentation.ppt).
 
 For additional information, contact Rebecca Neel at rebecc.clark@gmail.com.
 
